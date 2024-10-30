@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Button(action: {print("tapped")}) {
-            Text("Tap")
+            Text("Tap again")
         }
         .padding(.all)
         .foregroundColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
